@@ -80,14 +80,14 @@ parts["Part2"] = 98.5
 parts["Part3"] = 7.95
 parts["Part4"] = 19.99
 
-print(addPart(parts, "Part5", 0.01))
-print(addPart(parts, "Part4", 0.01))
-print(totalParts(parts))
-print(partsGreaterThan(parts, 0.02))
-print(isPart(parts, "Part5"))
-print(isPart(parts, "Part7"))
-print(leastExpensivePart(parts))
-print(mostExpensivePart(parts))
-print(averagePrice(parts))
+addPart(parts, "Part5", 0.01)
+addPart(parts, "Part4", 0.01)
+totalParts(parts)
+partsGreaterThan(parts, 0.02)
+isPart(parts, "Part5")
+isPart(parts, "Part7")
+leastExpensivePart(parts)
+mostExpensivePart(parts)
+averagePrice(parts)
 
 printParts(parts)

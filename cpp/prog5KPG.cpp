@@ -26,21 +26,17 @@ int main() {
     parts["Part3"] = 7.95;
     parts["Part4"] = 19.99;
 
-    cout << addPart(parts, "Part5", 0.01) << endl;
-    cout << addPart(parts, "Part4", 0.01) << endl;
-    cout << totalParts(parts) << endl;
+    addPart(parts, "Part5", 0.01);
+    addPart(parts, "Part4", 0.01);
+    totalParts(parts);
 
     vector<string> partsAboveLimit = partsGreaterThan(parts, 0.02);
-    for (auto& part : partsAboveLimit) {
-        cout << part << " ";
-    }
-    cout << endl;
 
-    cout << isPart(parts, "Part5") << endl;
-    cout << isPart(parts, "Part7") << endl;
-    cout << leastExpensivePart(parts) << endl;
-    cout << mostExpensivePart(parts) << endl;
-    cout << averagePrice(parts) << endl;
+    isPart(parts, "Part5");
+    isPart(parts, "Part7");
+    leastExpensivePart(parts);
+    mostExpensivePart(parts);
+    averagePrice(parts);
 
     printParts(parts);
 

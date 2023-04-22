@@ -16,15 +16,15 @@ public class prog5KPG {
         parts.put("Part3", 7.95);
         parts.put("Part4", 19.99);
 
-        System.out.println(addPart(parts, "Part5", 0.01));
-        System.out.println(addPart(parts, "Part4", 0.01));
-        System.out.println(totalParts(parts));
-        System.out.println(partsGreaterThan(parts, 0.02));
-        System.out.println(isPart(parts, "Part5"));
-        System.out.println(isPart(parts, "Part7"));
-        System.out.println(leastExpensivePart(parts));
-        System.out.println(mostExpensivePart(parts));
-        System.out.println(averagePrice(parts));
+        addPart(parts, "Part5", 0.01);
+        addPart(parts, "Part4", 0.01);
+        totalParts(parts);
+        partsGreaterThan(parts, 0.02);
+        isPart(parts, "Part5");
+        isPart(parts, "Part7");
+        leastExpensivePart(parts);
+        mostExpensivePart(parts);
+        averagePrice(parts);
 
         printParts(parts);
     }
